@@ -1,0 +1,32 @@
+Built In Examples
+--------------------
+
+block reflection_slower 
+- this is cool, its like breating in and out, sometimes the fades are too fast
+	
+	4 timers
+	
+
+color fade pulse_slower 
+- nice gentle constant pulse, only half the strip is light at a time 
+- might be nice to offset all 8 strip relative to eachother by 2PI/8
+	
+	3 timers
+	t3 is the speed of the moving pulse
+
+color twinkle bounce
+
+fast pulse
+
+millipese
+
+oppositeies   -  good slow fades
+
+sparks
+
+sparcs center
+
+--------------------
+
+
+
