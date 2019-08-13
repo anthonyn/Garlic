@@ -3,14 +3,14 @@ ONIONS AND GARLIC PIXELBLAZE
 LED strip lengths
 --------------------
 
-Onion
+Onion leds
 4.77 meter - 143 pixels
 
-Garlic
+Garlic leds
 1.33 meter -  39 pixels
 
 
-Built In Examples - Here are some notes on the built in programs I like that I tred to tweak a bit.  They should be tweaked when its set up too, I'm not sur ehow bright things will need to be or how much dead space will look good.
+Here are some notes on the built in programs I like that I tred to tweak a bit.  They should be tweaked when its set up too, I'm not sure how bright things will need to be or how much dead space will look good.
 --------------------
 
 block reflection_slower 
@@ -26,11 +26,13 @@ color fade pulse_slower
 	3 timers
 	t3 is the speed of the moving pulse
 
+
 color twinkle bounce
 - bounce is good, but its all a little fast - not sure how to slow it down easily
 - 4 sections at a time
 	
 	2 timers
+
 
 fast pulse_slower
 - single pulse
@@ -38,7 +40,6 @@ fast pulse_slower
 - White dot in the center of the pulse might be too bright
 
 	1 timer
-
 
 
 millipese_slower
@@ -51,28 +52,21 @@ millipese_slower
 
 	added a clamp to the v val to keep the brighess from getting too high, try tuning this so see what looks good.  Making it low will also have the affect of limiting the colors, but I think that is ok here
 
+
 oppositeies   -  good slow fades
 -mehhh
 
 
 sparks
-- too much noise, and too fast, but nice white sparks
+-too much noise, and too fast, but nice white sparks
 
 
 sparcs center
-- too much noise, and too fast, but nice white sparks
+-too much noise, and too fast, but nice white sparks
 
 
-Added examples
---------------------
+SlowRainbow
+-Full strips light and slowly cycling through the full rainbow
 
-rainbow fade
-
-
-
-
-rainbow fade spaced out by 8
-
-
-
-
+	v is for changing the brightnes
+	t is for changing the fade speec
