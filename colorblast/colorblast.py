@@ -1,3 +1,4 @@
+#!/usr/bin/python2
 import time
 import random
 import opc
@@ -16,6 +17,9 @@ client2 = opc.Client(ADDRESS2, verbose=False, protocol="kinet")
 client3 = opc.Client(ADDRESS3, verbose=False, protocol="kinet")
 
 clients = [client1, client2, client3]
+
+# for client in clients:
+# 	print client.protocol
 
 # Test if it can connect
 if client1.can_connect():
@@ -55,6 +59,9 @@ while True:
     # if client3.put_pixels(my_pixels):
     #     print 'sent', color
     # else:
-    #     print 'not connected'                
+    #     print 'not connected'      
+
+
+    #tune the sleep here          
     time.sleep(0.1)
 
