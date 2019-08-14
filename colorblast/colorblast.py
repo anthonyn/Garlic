@@ -65,7 +65,10 @@ i = 0
 
 
 #make this bigger and smaller to control transistion speed
-time = 1
+waitTime = 1
+
+#replace color with a simple R G B value if you want static colors
+# like this [(255,0,0)]
 
 # Send pixels forever
 while True:
@@ -92,5 +95,5 @@ while True:
 
 
     #tune the sleep here          
-    time.sleep(1)
+    time.sleep(waitTime)
 
